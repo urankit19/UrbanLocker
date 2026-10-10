@@ -7,7 +7,7 @@ import "./AdminDashboard.css";
 export default function AdminDashboard() {
   const navigate = useNavigate();
 
-  constA [locations, setLocations] = useState([]);
+  const [locations, setLocations] = useState([]);
   const [lockers, setLockers] = useState([]);
   const [bookings, setBookings] = useState([]);
   const [profile, setProfile] = useState(null);
